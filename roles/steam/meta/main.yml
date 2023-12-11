@@ -1,0 +1,4 @@
+---
+dependencies:
+  - korbad.workstation.pacman
+  - korbad.workstation.pacman_multilib
