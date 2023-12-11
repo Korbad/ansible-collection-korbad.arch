@@ -1,0 +1,10 @@
+---
+- name: Ensure pycharm community edition is NOT installed
+  community.general.pacman:
+    name: pycharm-community-edition
+    state: absent
+  become: true
+
+- name: Ensure pycharm pro is installed
+  kewlfft.aur.aur:
+    name: pycharm-professional
